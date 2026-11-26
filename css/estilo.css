@@ -1,0 +1,17 @@
+#centro{
+    text-align: center;
+}
+#lado{
+    width: 20%;
+}
+#ladoalado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    text-align: justify;
+}
+header{
+    background-color: darkgray;
+}
