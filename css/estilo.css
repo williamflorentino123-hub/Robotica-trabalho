@@ -1,17 +1,45 @@
 #centro{
     text-align: center;
+    border-radius: 10px;
 }
 #lado{
     width: 20%;
+    border-radius: 10px;
 }
 #ladoalado{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-p{
-    text-align: justify;
+html{
+    background-color: lightgray;
+    border-radius: 15px;
 }
+body{
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+p{
+    text-align: center;
+
+}
+
 header{
     background-color: darkgray;
+    border-bottom: 10px solid darkgray;
+}
+img{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.menu{
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 20%;
+    position: relative;
+    position: fixed;
 }
